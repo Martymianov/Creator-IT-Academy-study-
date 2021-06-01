@@ -1,0 +1,12 @@
+.headrs {
+    font-size: xx-large;
+    display: flex;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.descrition {
+    font-size: larger;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
