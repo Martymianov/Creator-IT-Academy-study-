@@ -1,0 +1,30 @@
+.Father {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+    padding: 30px;
+    border: 30px;
+    background-color: aliceblue;
+}
+
+.headres1 {
+    font-size: 100px;
+    color: #009;
+    text-align: center;
+}
+
+.headres {
+    font-size: 60px;
+    color: #090;
+    text-align: justify;
+    margin: 10px;
+}
+
+.foto {
+    display: flex;
+    border-radius: 3px;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box
+}
