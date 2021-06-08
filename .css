@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ctorinka {
+    width: 100%;
+    height: 800px;
+
+    position: relative;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #000;
+    position: sticky;
+    top: 0px;
+}
+
+.spusok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spusok li {
+    margin: 15px;
+    px 20px 0px 20px;
+    padding: 0px 30px 0px 30px;
+    border: 3px solid white;
+    border-radius: 15px;
+    position: sticky;
+
+    
+    
+}
+
+.spusok li:hover{
+    background-color: white;   
+}
+
+a {
+    color: white;
+}
+
+.center {
+    font-size: 50px;
+    margin: 0px:auto;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
