@@ -1,0 +1,52 @@
+*{margin: 0px;
+ padding: 0px;
+background-color: black;}
+
+
+.conteiner{
+    padding: 0% auto;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;}
+
+.box{ 
+    animation-name: infinite;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    width: 70px;
+    height: 30px;
+    margin: 6px;
+    display: inline-flex;
+    border-radius: 40px;
+    background-color: #fff;
+    color: cornsilk;
+    text-align: center;
+    align-content: center;
+    }
+    .box:nth-child(1){
+    animation-delay:0.25s;
+    background: linear-gradient(90deg, rgba(136,8,15,0.7150210425967262) 19%, rgba(95,15,88,0.8942927512801996) 45%, rgba(0,212,255,1) 99%);}
+    .box:nth-child(2){
+    animation-delay:0.30s;
+    background: linear-gradient(90deg, rgba(14,8,136,0.7150210425967262) 36%, rgba(0,212,255,1) 45%, rgba(95,15,88,0.8942927512801996) 60%);}
+    .box:nth-child(3){
+    animation-delay:0.45s;
+    background: linear-gradient(90deg, rgba(14,8,136,0.7150210425967262) 12%, rgba(165,116,161,0.8942927512801996) 39%, rgba(255,0,27,1) 67%);} 
+    .box:nth-child(4){
+    animation-delay:0.85s;
+    background-color: blueviolet;} 
+    
+    @keyframes infinite
+    {
+    0%{ transform:translateY(0);
+      }
+    15%{ transform:translateY(-15px);
+      }
+    30%{ transform:translateY(0);
+      }
+    }
+
+
+
